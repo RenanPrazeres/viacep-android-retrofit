@@ -37,7 +37,7 @@ class CepsAdapter(val context: Context) : RecyclerView.Adapter<CepsAdapter.CepVi
         holder.tvBairro.text = endereco.bairro
     }
 
-    // Retorna a contidade de linhas ele tem que desenhar
+    // Retorna a quantidade de linhas ele tem que desenhar
     override fun getItemCount(): Int {
         Log.i("xptoholder", "getItemCount")
         return listaCeps.size
